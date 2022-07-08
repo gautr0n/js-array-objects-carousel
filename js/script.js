@@ -93,8 +93,9 @@ prevButton.addEventListener('click', function () {
     currentActiveIndex--;
 
     if (currentActiveIndex === -1) {
-        currentActiveIndex = galleryImages.length;
+        currentActiveIndex = galleryImages.length - 1;
+        galleryImages[currentActiveIndex].classList.add('active');
+    } else {
+        galleryImages[currentActiveIndex].classList.add('active');
     }
-
-    galleryImages[currentActiveIndex].classList.add('active');
 });
