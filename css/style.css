@@ -53,8 +53,19 @@
 
 .title{
 	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: white;
+	padding: 5px 10px ;
+	border-radius: 20px;
 }
 
 .text{
 	position: absolute;
+	bottom: 20px;
+	left: 15px;
+	right: 15px;
+	background-color: white;
+	padding: 5px 10px ;
+	border-radius: 20px;
 }
