@@ -50,3 +50,11 @@
 .carousel .carousel__arrow.arrow-right {
 	right: 20px;
 }
+
+.title{
+	position: absolute;
+}
+
+.text{
+	position: absolute;
+}
